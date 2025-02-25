@@ -16,7 +16,7 @@ export class PublicObjectSearchRequest {
     'query'?: string;
     'limit'?: number;
     'after'?: string;
-    'sorts'?: Array<string>;
+    'sorts'?: Array<{propertyName: string, direction: string}>;
     'properties'?: Array<string>;
     'filterGroups'?: Array<FilterGroup>;
 
